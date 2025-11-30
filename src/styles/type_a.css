@@ -90,6 +90,7 @@ body {
     width: 215px;
     height: 215px;
     background: url("/img/type_a/motion_run_2.png") 0px 0px / 1290px auto no-repeat;
+    background-image: url("/img/type_a/motion_run_2.png");
     animation: run clamp(0.25s, calc((5 - (1 / 2000)) * 0.1s), 1.2s) steps(5, start) infinite;
     animation-delay: 1s;
     position: absolute;
