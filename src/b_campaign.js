@@ -1,8 +1,7 @@
 
-import '../public/styles/normalize.css'
-import '../public/styles/common.css'
-// import '../public/styles/type_b.css'
-import '../public/styles/b_campaign.css'
+import './styles/normalize.css'
+import './styles/common.css'
+import './styles/b_campaign.css'
 
 import Matter from 'matter-js';
 

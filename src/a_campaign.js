@@ -1,7 +1,7 @@
-import '../public/styles/normalize.css'
-import '../public/styles/common.css'
-import '../public/styles/type_a.css'
-import '../public/styles/a_campaign.scss'
+import './styles/normalize.css'
+import './styles/common.css'
+import './styles/type_a.css'
+import './styles/a_campaign.scss'
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

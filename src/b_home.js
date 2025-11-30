@@ -1,5 +1,5 @@
 
-import '../public/styles/normalize.css'
-import '../public/styles/common.css'
-import '../public/styles/type_b.css'
+import './styles/normalize.css'
+import './styles/common.css'
+import './styles/type_b.css'
 

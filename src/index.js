@@ -1,1 +1,1 @@
-import '../public/styles/common.css'
+import './styles/common.css'
