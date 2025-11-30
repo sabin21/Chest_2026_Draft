@@ -87,7 +87,7 @@ a{ text-decoration: none;}
   -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
-  background-image: url(../img/iphone_frame_light_gray.png);
+  background-image: url(/img/iphone_frame_light_gray.png);
   background-size: 424px 814px;
   background-repeat: no-repeat;
 

@@ -30,7 +30,7 @@ body {
   width: calc(100% - 120px); height:746px; position: relative; overflow: hidden;
   margin: 0 auto; border-radius: 2.5vw;
   background-position: center;
-  background-image: url('../img/type_a/hero_back.png');
+  background-image: url('/img/type_a/hero_back.png');
  }
 }
 .hero-title-wrap{
@@ -89,7 +89,7 @@ body {
     z-index: 1;
     width: 215px;
     height: 215px;
-    background: url("../img/type_a/motion_run_2.png") 0px 0px / 1290px auto no-repeat;
+    background: url("/img/type_a/motion_run_2.png") 0px 0px / 1290px auto no-repeat;
     animation: run clamp(0.25s, calc((5 - (1 / 2000)) * 0.1s), 1.2s) steps(5, start) infinite;
     animation-delay: 1s;
     position: absolute;
@@ -173,15 +173,15 @@ body {
   overflow: hidden; border-radius: 20px;
   &.red-one-1{
     top: 0px; left: calc(50% + 140px);
-    background-image: url('../img/type_a/home_red_1.png');
+    background-image: url('/img/type_a/home_red_1.png');
   }
   &.red-one-2{
     top: 662px; left: calc(50% - 574px);
-    background-image: url('../img/type_a/home_red_2.png');
+    background-image: url('/img/type_a/home_red_2.png');
   }
   &.red-one-3{
     top: 772px; left: calc(50% + 140px);
-    background-image: url('../img/type_a/home_red_3.png');
+    background-image: url('/img/type_a/home_red_3.png');
   }
 }
 
