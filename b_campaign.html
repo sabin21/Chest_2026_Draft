@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chest Campaign</title>
+</head>
+
+<body>
+    <header class="header type-b">
+        <div class="util-bar">
+            <img src="/public/img/type_a/utile_btns.png" alt="">
+        </div>
+        <div class="gnb-bar">
+            <div class="inner">
+                <div class="logo">
+                    <img src="/public/img/logo_default.png" alt="">
+                </div>
+                <img src="/public/img/type_a/gnb_menu.png" class="gnb-menu">
+                <img src="/public/img/type_a/gnb_burger.png" class="gnb-burger">
+            </div>
+        </div>
+    </header>
+
+    <main style="position: relative; padding-bottom: 150px;">
+        <section class="section section-hero">
+            <div class="hero-content">
+                <div class="interactive-area" id="interactive-area">
+                    <div class="center-circle" id="center-circle">
+                        <svg class="progress-ring" viewBox="0 0 560 560">
+                            <circle class="progress-ring__circle-bg" stroke="#e6e6e6" stroke-width="28"
+                                fill="transparent" r="260" cx="280" cy="280" />
+                            <circle class="progress-ring__circle" stroke="#e6002d" stroke-width="28" fill="transparent"
+                                r="260" cx="280" cy="280" />
+                        </svg>
+                        <div class="circle-content">
+                            <div class="temperature-value">
+                                <span id="temp-val">0</span><span class="degree"></span>
+                            </div>
+                            <p class="label">현재 나눔온도</p>
+
+                        </div>
+                        <p class="description">당신의 기부로<br>나눔온도를 높여주세요</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cam-title-wrap">
+                <div class="title-circle">
+                    <img src="/public/img/type_b/campaign_hero_headline.png" alt="">
+                </div>
+                <div class="cam-cta">
+                    <div class="wing-element">
+                        <svg class="base-heart" width="203" height="180" viewBox="0 0 203 180" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M150.451 0.00454981C112.403 -0.383478 100.811 24.1773 100.811 24.1773C100.811 24.1916 88.8188 -0.383478 50.7769 0.00454981C22.1234 0.30635 -3.70147 23.7174 0.438166 70.5682C3.9258 110.112 36.1917 148.814 89.4507 175.992C97.3877 180.042 106.77 180.042 114.642 175.992C167.458 148.816 199.094 110.126 201.938 70.5682C205.302 23.7174 179.096 0.30635 150.451 0.00454981Z"
+                                fill="#E30613" />
+                        </svg>
+
+                        <img src="/public/img/type_b/wing_r.svg" class="heart-wing wing-r">
+                        <img src="/public/img/type_b/wing_l.svg" class="heart-wing wing-l">
+                        <img src="/public/img/type_b/cam_cta_text.png" class="cta-text">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-content">
+            <a href="b_home.html">
+                <img src="/public/img/type_b/cam_con_1.png" class="content-full">
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-1">
+            <img src="/public/img/footer_1.png" alt="">
+        </div>
+        <div class="footer-2">
+            <img src="/public/img/footer_2.png" alt="">
+        </div>
+    </footer>
+
+    <script type="module" src="/src/b_campaign.js"></script>
+</body>
+
+</html>
