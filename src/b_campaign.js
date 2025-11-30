@@ -63,17 +63,17 @@ Composite.add(world, centerBody);
 const floatingBodies = [];
 // Use local character images
 const imageUrls = [
-    '/img/type_b/float_character_1.png',
-    '/img/type_b/float_character_2.png',
-    '/img/type_b/float_character_3.png',
-    '/img/type_b/float_character_4.png',
-    '/img/type_b/float_character_5.png',
-    '/img/type_b/float_character_6.png',
-    '/img/type_b/float_character_7.png',
-    '/img/type_b/float_heart_1.png',
-    '/img/type_b/float_heart_2.png',
-    '/img/type_b/float_heart_3.png',
-    '/img/type_b/float_heart_4.png'
+    './img/type_b/float_character_1.png',
+    './img/type_b/float_character_2.png',
+    './img/type_b/float_character_3.png',
+    './img/type_b/float_character_4.png',
+    './img/type_b/float_character_5.png',
+    './img/type_b/float_character_6.png',
+    './img/type_b/float_character_7.png',
+    './img/type_b/float_heart_1.png',
+    './img/type_b/float_heart_2.png',
+    './img/type_b/float_heart_3.png',
+    './img/type_b/float_heart_4.png'
 ];
 
 function createFloatingBody(x, y, size, type) {
